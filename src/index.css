@@ -30,3 +30,16 @@ header ul li{
   display: inline-block;
   padding: 0 50px;
 }
+
+.main{
+  text-align: center;
+}
+
+.box{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+.box2{
+  background-color: green;
+}
