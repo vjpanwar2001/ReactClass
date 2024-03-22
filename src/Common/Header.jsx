@@ -1,14 +1,16 @@
 import React from 'react'
 import List from './List'
+import { Link } from 'react-router-dom'
 
 function Header({name,getdata}) {
-  let a = 10;
-  getdata(a)
+
   return (
    <>
   <header>
-    <h1>{name.name}</h1>
-    <List list={name}/>
+    <ul>
+      <li><Link to={'/'}>Home</Link></li>
+      <li><Link to={'/about'}>About</Link></li>
+    </ul>
   </header>
    </>
   )
